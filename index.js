@@ -5,12 +5,14 @@ screen.value+=value;
 function clearScreen(){
     screen.value=" ";
 }
-var password="1234";
+
 function findResult(){
-    if(document.getElementById('screen').value!=password){
-        alert('Wrong Password');
+    if(document.getElementById('screen').value!=1234){
+        alert('Wrong Pin,Please enter the correct pin');
+        return false;
     }
-    if(document.getElementById('screen').value==password){
-        alert('You are enter the correct password:1234');
+    if(document.getElementById('screen').value==1234){
+        alert('You are enter the correct pin:1234');
     }
+    return true;
 }
