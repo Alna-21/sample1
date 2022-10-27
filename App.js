@@ -18,12 +18,12 @@ const App=()=> {
   };
  
   const enterOutput=(text)=>{
-    console.log("1");
-  //  if (setText==1234){
-  //      alert("Your are enter correct pin");
-  //     }else{
-  //       alert("Wrong Pin")
-  //     }
+    
+   if (setText==1234){
+      alert("Your are enter correct pin");
+     }else{
+        alert("Wrong Pin")
+      }
      
   };
   
